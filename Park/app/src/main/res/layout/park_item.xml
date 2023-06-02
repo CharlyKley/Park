@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_marginLeft="20dp"
+    android:layout_marginRight="20dp"
+    android:layout_marginTop="10dp"
+    android:padding="10dp"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/status"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:text="status_carro"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+    </TextView>
+    <TextView
+        android:id="@+id/tipo_vehiculo"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:text="Tipo de carro"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+    </TextView>
+    <TextView
+        android:id="@+id/nombre"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:text="Nombre conductor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+    </TextView>
+    <TextView
+        android:id="@+id/numero"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:text="Numero conductor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+    </TextView>
+    <TextView
+        android:id="@+id/placa"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:text="Numero de placa"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+    </TextView>
+    <TextView
+        android:id="@+id/tarifa"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:text="tarifa"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+    </TextView>
+    <TextView
+        android:id="@+id/hora"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:text="Hora de entrada"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+    </TextView>
+</LinearLayout>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".views.ParquearCarroActivity"
+    android:paddingLeft="20dp"
+    android:paddingRight="20dp"
+    android:paddingTop="30dp"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/parqueadero_nombre"
+        android:layout_marginTop="10dp"
+        android:hint="Nombre completo"
+        android:padding="15dp"
+        android:background="@android:color/transparent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    </EditText>
+    <EditText
+        android:id="@+id/parqueadero_numero"
+        android:layout_marginTop="10dp"
+        android:hint="numero"
+        android:padding="15dp"
+        android:background="@android:color/transparent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    </EditText>
+    <EditText
+        android:id="@+id/parqueadero_placa"
+        android:layout_marginTop="10dp"
+        android:hint="Numero de placa"
+        android:padding="15dp"
+        android:background="@android:color/transparent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    </EditText>
+    <EditText
+        android:id="@+id/parqueadero_tipo"
+        android:layout_marginTop="10dp"
+        android:hint="Tipo de vehiculo"
+        android:padding="15dp"
+        android:background="@android:color/transparent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    </EditText>
+    <EditText
+        android:id="@+id/parqueadero_tarifa"
+        android:layout_marginTop="10dp"
+        android:hint="tarifa"
+        android:padding="15dp"
+        android:background="@android:color/transparent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    </EditText>
+
+    <Button
+        android:text="Parquear vehiculo"
+        android:id="@+id/parqueadero_boton"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    </Button>
+
+</LinearLayout>
